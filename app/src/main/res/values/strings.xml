@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Quiz APP</string>
+    <string name="StartScreenTitle">QUIZ APP</string>
+    <string name="InputUserName">Please enter your name:</string>
+    <string name="StartEditTextHint">Name</string>
+    <string name="StartButton">START</string>
+    <string name="SubmitButtonText">OK</string>
+    <string name="NextButtonText">Next</string>
+    <string name="newQuizText">Restart</string>
+    <string name="finishButtonText">Finish</string>
+    <string name="yourScoreTextString">Your Score:</string>
+
+    // Array for array of answers
+    <array name="questionAnswers">
+        <item>@array/firstQuestionAnswers</item>
+        <item>@array/secondQuestionAnswers</item>
+        <item>@array/thirdQuestionAnswers</item>
+        <item>@array/fourthQuestionAnswers</item>
+        <item>@array/fifthQuestionAnswers</item>
+    </array>
+
+    // Array for the question title
+    <string-array name="questionTitles">
+        <item>Android Introduction</item>
+        <item>Android Introduction</item>
+        <item>Android Introduction</item>
+        <item>Android UI Development</item>
+        <item>Activity and Intent</item>
+    </string-array>
+
+    // Array for question desc
+    <string-array name="questionDescriptions">
+        <item>Select a component which is NOT part of Android architecture</item>
+        <item>Required folder name when Android project is created</item>
+        <item>Which of the following is an Android version name?</item>
+        <item>Which of the following is not part of Basic Input Controls?</item>
+        <item>Which is not a state of an Activity?</item>
+    </string-array>
+
+
+    // Arrays for answers
+
+    // Array for first question answers
+    //3
+    <string-array name="firstQuestionAnswers">
+        <item>Android Framework</item>
+        <item>Libraries</item>
+        <item>Android Document</item>
+    </string-array>
+
+    // Array for second question answers
+    //2
+    <string-array name="secondQuestionAnswers">
+        <item>build</item>
+        <item>bin</item>
+        <item>bash</item>
+    </string-array>
+
+    // Array for third question answers
+    <string-array name="thirdQuestionAnswers">
+        <item>Oreo</item>
+        <item>Snapdragon</item>
+        <item>XeOn</item>
+    </string-array>
+
+    // Array for fourth question answers
+    <string-array name="fourthQuestionAnswers">
+        <item>Button</item>
+        <item>Text View</item>
+        <item>Checkbox</item>
+    </string-array>
+
+    // Array for fifth question answers
+    //3
+    <string-array name="fifthQuestionAnswers">
+        <item>Active</item>
+        <item>Paused</item>
+        <item>Halted</item>
+    </string-array>
+
+</resources>
